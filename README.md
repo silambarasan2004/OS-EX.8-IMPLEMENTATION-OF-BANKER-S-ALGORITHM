@@ -126,11 +126,7 @@ print(" P", ans[n - 1], sep="")
 
 ```
 ## OUTPUT:
-
-
-<img width="611" alt="image" src="https://github.com/AlluguriSrikrishnateja/OS-EX.8-IMPLEMENTATION-OF-BANKER-S-ALGORITHM/assets/118343892/0342adae-3eb2-4d80-a8cc-fdcccbdf97e1">
-
-
+![image](https://github.com/silambarasan2004/OS-EX.8-IMPLEMENTATION-OF-BANKER-S-ALGORITHM/assets/119559917/0c19c1f5-d5a5-45b4-b8cc-a0bca068e09b)
 
 ## RESULT:
 
