@@ -1,11 +1,11 @@
 # OS-EX.8-IMPLEMENTATION-OF-BANKER-S-ALGORITHM
 
-AIM:
+## AIM:
     To implement the bankers Algorithm
 
-ALGORITHM:
+## ALGORITHM:
 
-#Step 1: Initialize Data
+Step 1: Initialize Data
 
 1. Set n to 5 (number of processes) and m to 3 (number of resource types).
 
@@ -21,7 +21,7 @@ ALGORITHM:
 
 5. Initialize arrays f, ans, and ind to manage process states and safe sequence.
 
-#Step 2: Initialize Flags and Need Matrix
+Step 2: Initialize Flags and Need Matrix
 
 
 1. Initialize the array f to keep track of whether each process is finished (all initially set to 0).
@@ -29,11 +29,11 @@ ALGORITHM:
   
 2. Create an empty matrix need to represent the resource needs of each process.
 
-#Step 3: Calculate Need Matrix
+Step 3: Calculate Need Matrix
 
 1. Calculate the need matrix by subtracting the alloc matrix from the max matrix for each process and resource.
 
-#Step 4: Main Loop
+Step 4: Main Loop
 1. Loop k from 0 to 4 (5 iterations, one for each process).
 
 2. Inside the loop:
@@ -65,7 +65,7 @@ ALGORITHM:
 
 11. Mark process i as finished by setting f[i] to 1.
 
-#Step 5: Print the SAFE Sequence
+Step 5: Print the SAFE Sequence
 
 1. Print "Following is the SAFE Sequence" as a header.
 
@@ -76,7 +76,7 @@ ALGORITHM:
 3. Print the last process in the sequence.
 
 
-PROGRAM:
+## PROGRAM:
 ```
 n = 5
 m = 3
@@ -125,13 +125,13 @@ print(" P", ans[n - 1], sep="")
 
 
 ```
-OUTPUT:
+## OUTPUT:
 
 
 <img width="611" alt="image" src="https://github.com/AlluguriSrikrishnateja/OS-EX.8-IMPLEMENTATION-OF-BANKER-S-ALGORITHM/assets/118343892/0342adae-3eb2-4d80-a8cc-fdcccbdf97e1">
 
 
 
-RESULT:
+## RESULT:
 
 Thus the program for the bankers algorithm is implemented successfully.
